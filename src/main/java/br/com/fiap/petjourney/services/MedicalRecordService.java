@@ -53,6 +53,22 @@ public class MedicalRecordService {
     }
 
     @CacheEvict(value = "medicalRecords", allEntries = true)
+    public MedicalRecordResponse update(Long id, MedicalRecordRequest request) {
+        MedicalRecord medicalRecord = repository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Prontuário não encontrado"));
+
+        Pet pet = petRepository.findById(request.petId())
+                .orElseThrow(() -> new ResourceNotFoundException("Pet não encontrado"));
+
+        Veterinarian veterinarian = veterinarianRepository.findById(request.veterinarianId())
+                .orElseThrow(() -> new ResourceNotFoundException("Veterinário não encontrado"));
+
+        medicalRecord.updateFrom(request, pet, veterinarian);
+
+        return MedicalRecordResponse.fromEntity(repository.save(medicalRecord));
+    }
+
+    @CacheEvict(value = "medicalRecords", allEntries = true)
     public void delete(Long id) {
         if (!repository.existsById(id)) {
             throw new ResourceNotFoundException("Prontuário não encontrado");

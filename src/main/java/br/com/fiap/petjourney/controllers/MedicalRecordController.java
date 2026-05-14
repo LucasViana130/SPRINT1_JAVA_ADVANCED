@@ -66,6 +66,16 @@ public class MedicalRecordController {
         return ResponseEntity.status(HttpStatus.CREATED).body(record);
     }
 
+    @PutMapping("/{id}")
+    @Operation(summary = "Atualizar prontuário")
+    public ResponseEntity<MedicalRecordResponse> update(
+            @PathVariable Long id,
+            @RequestBody @Valid MedicalRecordRequest request) {
+        MedicalRecordResponse record = service.update(id, request);
+        record.add(linkTo(methodOn(MedicalRecordController.class).getById(record.getId())).withSelfRel());
+        return ResponseEntity.ok(record);
+    }
+
     @DeleteMapping("/{id}")
     @Operation(summary = "Excluir prontuário")
     public ResponseEntity<Void> delete(@PathVariable Long id) {

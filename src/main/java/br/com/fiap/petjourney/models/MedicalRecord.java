@@ -47,4 +47,14 @@ public class MedicalRecord {
         this.pet = pet;
         this.veterinarian = veterinarian;
     }
+
+    public void updateFrom(MedicalRecordRequest request, Pet pet, Veterinarian veterinarian) {
+        this.registrationDate = request.registrationDate();
+        this.mainComplaint = request.mainComplaint();
+        this.diagnosis = request.diagnosis();
+        this.conduct = request.conduct();
+        this.observations = request.observations();
+        this.pet = pet;
+        this.veterinarian = veterinarian;
+    }
 }
