@@ -11,7 +11,7 @@
 - [Arquitetura do Projeto](#-arquitetura-do-projeto)
 - [Requisitos Técnicos Atendidos](#-requisitos-técnicos-atendidos)
 - [Diagramas (UML e DER)](#-diagramas)
-- [Endpoints da API](#-55)
+- [Endpoints da API](#)
 - [Como Executar](#-como-executar)
 
 
@@ -35,6 +35,21 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 - **Repositories**: Interface de comunicação com o banco de dados via Spring Data JPA.
 - **Models**: Entidades JPA com lógica de atualização interna (`updateFrom`).
 - **DTOs**: Records para requisições e Classes para respostas (suporte a `RepresentationModel`).
+
+   src/main/java/br/com/fiap/petjourney/
+├── config/
+│   └── SwaggerConfig.java
+├── controllers/
+├── dtos/
+│   ├── request/
+│   └── response/
+├── exceptions/
+├── models/
+│   └── enums/
+├── repositories/
+├── services/
+└── PetJourneyApplication.java
+
 
 ## ✅ Requisitos Técnicos Atendidos
 - **CRUD Completo**: Para todas as entidades principais.
