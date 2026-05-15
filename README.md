@@ -39,7 +39,7 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 ````markdown id="j3r8jv"
 ## 📁 Project Structure
 
-```text
+```
 src/main/java/br/com/fiap/petjourney/
 ├── config/
 ├── controllers/
