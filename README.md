@@ -36,7 +36,11 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 - **Models**: Entidades JPA com lógica de atualização interna (`updateFrom`).
 - **DTOs**: Records para requisições e Classes para respostas (suporte a `RepresentationModel`).
 
-   src/main/java/br/com/fiap/petjourney/
+````markdown id="j3r8jv"
+## 📁 Project Structure
+
+```text
+src/main/java/br/com/fiap/petjourney/
 ├── config/
 │   └── SwaggerConfig.java
 ├── controllers/
@@ -49,6 +53,9 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 ├── repositories/
 ├── services/
 └── PetJourneyApplication.java
+```
+````
+
 
 ## ✅ Requisitos Técnicos Atendidos
 - **CRUD Completo**: Para todas as entidades principais.
@@ -63,7 +70,8 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 ![UML](https://private-us-east-1.manuscdn.com/sessionFile/LDDyuNbJSthi3bxz8adDs8/sandbox/2bz1lUDff6sy4hP0gFNRgj-images_1778818021905_na1fn_L2hvbWUvdWJ1bnR1L1BldEpvdXJuZXlfVU1MX0ZpbmFs.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvTEREeXVOYkpTdGhpM2J4ejhhZERzOC9zYW5kYm94LzJiejFsVURmZjZzeTRoUDBnRk5SZ2otaW1hZ2VzXzE3Nzg4MTgwMjE5MDVfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwxQmxkRXB2ZFhKdVpYbGZWVTFNWDBacGJtRnMucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QQvqen-xmbw-0ryRkvTt~8tThJS2fz46oSM3FS~aW7sxi9zWpUviS0oRXFWHazJzJ6DToME5DI6y6AO1LW1Dxe5AN7Q2a3~99VvzaU2wARhASKWYC71zfKpDNLGChTfKWXjzdLYyJd~ZsLmwGINXiHunIrf4V85c-516eX2dq87~s67uRgQ-s~5Z-8JIN8g9N1KzaMTfkeM9Amfxtt-6IZUUSTDWmh97pUn5jOvkh4zT7riQbOWuBOGZaygcjILZkIQ~mkSEOoB2qZNQGUpQIJDBVx~grUAvJyWoGb5JB36Q4CKItGFDIfc2Nrk7g0-nT9HYSd77Kxh8pLKRfUoaYw__)
 
 ### Diagrama Entidade-Relacionamento (DER)
-![DER]( 
+![DER]( <img width="1024" height="453" alt="Image (1)" src="https://github.com/user-attachments/assets/0b29b491-c656-4719-b1f9-11e4c2728f2b" />
+
 
 )
 
