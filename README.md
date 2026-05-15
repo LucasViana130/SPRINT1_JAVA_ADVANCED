@@ -9,6 +9,7 @@
 - [Sobre o Projeto](#-sobre-o-projeto)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura do Projeto](#-arquitetura-do-projeto)
+- [Relacionamentos do Projeto](#-relacionamentos-do-projeto).
 - [Requisitos Técnicos Atendidos](#-requisitos-técnicos-atendidos)
 - [Endpoints da API](#api-endpoints-petjourney)
 - [Como Executar](#-como-executar)
@@ -53,6 +54,62 @@ src/main/java/br/com/fiap/petjourney/
 └── PetJourneyApplication.java
 ```
 ````
+## 🔗 Relacionamentos do Projeto
+
+O sistema **PetJourney API** foi modelado utilizando relacionamentos entre entidades para representar o funcionamento de uma clínica veterinária de forma organizada e escalável.
+
+### 🏥 Clinic
+
+A entidade `Clinic` representa a clínica veterinária e possui relacionamento com os veterinários e agendamentos do sistema.
+
+* Uma clínica pode possuir vários veterinários.
+* Uma clínica pode possuir vários agendamentos.
+
+### 👨‍⚕️ Veterinarian
+
+A entidade `Veterinarian` representa os veterinários cadastrados no sistema.
+
+* Cada veterinário pertence a uma clínica.
+* Um veterinário pode realizar vários atendimentos.
+* Um veterinário pode registrar vários prontuários médicos.
+* Um veterinário pode prescrever vários medicamentos.
+
+### 👤 Tutor
+
+A entidade `Tutor` representa o responsável pelo pet.
+
+* Um tutor pode possuir vários pets cadastrados.
+
+### 🐶 Pet
+
+A entidade `Pet` representa os animais cadastrados no sistema.
+
+* Cada pet pertence a um tutor.
+* Um pet pode possuir vários prontuários médicos.
+* Um pet pode possuir vários medicamentos.
+* Um pet pode possuir vários agendamentos.
+
+### 📄 MedicalRecord
+
+A entidade `MedicalRecord` representa os prontuários médicos dos pets.
+
+* Cada prontuário pertence a um pet.
+* Cada prontuário é registrado por um veterinário.
+
+### 💊 Medication
+
+A entidade `Medication` representa os medicamentos prescritos.
+
+* Cada medicamento pertence a um pet.
+* Cada medicamento é associado a um veterinário responsável pela prescrição.
+
+### 📅 Appointment
+
+A entidade `Appointment` representa os agendamentos realizados na clínica.
+
+* Cada agendamento pertence a um pet.
+* Cada agendamento possui um veterinário responsável.
+* Cada agendamento pertence a uma clínica.
 
 
 ## ✅ Requisitos Técnicos Atendidos
