@@ -5,13 +5,18 @@
 [![H2 Database](https://img.shields.io/badge/H2-Database-blue.svg)](https://www.h2database.com/)
 [![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D.svg)](https://swagger.io/)
 
+```markdown
 ## 👥 Equipe
-Nome	RM
-Lucas Grillo Alcântara	561413
-Pietro Ferreira Gomes Abraâmico	561469
-Pedro Peres Benítez	561792
-Lucca Ramos Mussumecci	562027
-Turma: 2TDSPX
+
+| Nome | RM |
+|------|------|
+| Lucas Viana | 563254 |
+| Deryk de Souza | 563412 |
+| Vinicius Paschoeto | 563089 |
+
+**Turma:** 2TDSPX
+```
+
 
 ## 📋 Sumário
 - [Sobre o Projeto](#-sobre-o-projeto)
