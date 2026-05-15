@@ -11,7 +11,7 @@
 - [Arquitetura do Projeto](#-arquitetura-do-projeto)
 - [Relacionamentos do Projeto](#-relacionamentos-do-projeto).
 - [Requisitos Técnicos Atendidos](#-requisitos-técnicos-atendidos)
-- [Endpoints da API](#api-endpoints-petjourney)
+- [Endpoints da API](#-petjourney-api-endpoints)
 - [Como Executar](#-como-executar)
 
 
@@ -120,7 +120,7 @@ A entidade `Appointment` representa os agendamentos realizados na clínica.
 - **Cache**: Implementado nas consultas de Pets e Prontuários Médicos.
 - **Tratamento de Exceções**: Handler global com respostas padronizadas e exceções customizadas.
 
-## 📌 API Endpoints - PetJourney
+## 📌 PetJourney API Endpoints
 
 ## 🏥 Clinics
 
