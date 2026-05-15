@@ -52,6 +52,88 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 ![DER](<img width="1024" height="453" alt="image" src="https://github.com/user-attachments/assets/57b7fb98-58e0-4a19-bba9-282d6f1ac8cf" />
 )
 
+# 📌 API Endpoints - PetJourney
+
+## 🏥 Clinics
+
+| Método | Endpoint        | Descrição                |
+| ------ | --------------- | ------------------------ |
+| GET    | `/clinics`      | Listar todas as clínicas |
+| GET    | `/clinics/{id}` | Buscar clínica por ID    |
+| POST   | `/clinics`      | Criar nova clínica       |
+| PUT    | `/clinics/{id}` | Atualizar clínica        |
+| DELETE | `/clinics/{id}` | Deletar clínica          |
+
+---
+
+## 👨‍⚕️ Veterinarians
+
+| Método | Endpoint              | Descrição                 |
+| ------ | --------------------- | ------------------------- |
+| GET    | `/veterinarians`      | Listar veterinários       |
+| GET    | `/veterinarians/{id}` | Buscar veterinário por ID |
+| POST   | `/veterinarians`      | Criar veterinário         |
+| PUT    | `/veterinarians/{id}` | Atualizar veterinário     |
+| DELETE | `/veterinarians/{id}` | Deletar veterinário       |
+
+---
+
+## 👤 Tutors
+
+| Método | Endpoint       | Descrição           |
+| ------ | -------------- | ------------------- |
+| GET    | `/tutors`      | Listar tutores      |
+| GET    | `/tutors/{id}` | Buscar tutor por ID |
+
+---
+
+## 🐶 Pets
+
+| Método | Endpoint     | Descrição         |
+| ------ | ------------ | ----------------- |
+| GET    | `/pets`      | Listar pets       |
+| GET    | `/pets/{id}` | Buscar pet por ID |
+
+---
+
+## 📋 Medical Records
+
+| Método | Endpoint                                          | Descrição                   |
+| ------ | ------------------------------------------------- | --------------------------- |
+| GET    | `/medical-records/pet/{petId}`                    | Listar prontuários do pet   |
+| GET    | `/medical-records/search?start={start}&end={end}` | Buscar prontuários por data |
+| GET    | `/medical-records/{id}`                           | Buscar prontuário por ID    |
+| POST   | `/medical-records`                                | Criar prontuário            |
+| DELETE | `/medical-records/{id}`                           | Deletar prontuário          |
+
+---
+
+## 💊 Medications
+
+| Método | Endpoint                   | Descrição                  |
+| ------ | -------------------------- | -------------------------- |
+| GET    | `/medications/pet/{petId}` | Listar medicamentos do pet |
+| GET    | `/medications/{id}`        | Buscar medicamento por ID  |
+| POST   | `/medications`             | Criar medicamento          |
+| PUT    | `/medications/{id}`        | Atualizar medicamento      |
+| DELETE | `/medications/{id}`        | Deletar medicamento        |
+
+---
+
+## 📅 Appointments
+
+| Método | Endpoint                                       | Descrição                    |
+| ------ | ---------------------------------------------- | ---------------------------- |
+| GET    | `/appointments/pet/{petId}`                    | Listar agendamentos do pet   |
+| GET    | `/appointments/search?start={start}&end={end}` | Buscar agendamentos por data |
+| GET    | `/appointments/{id}`                           | Buscar agendamento por ID    |
+| POST   | `/appointments`                                | Criar agendamento            |
+| PUT    | `/appointments/{id}`                           | Atualizar agendamento        |
+| DELETE | `/appointments/{id}`                           | Deletar agendamento          |
+
+---
+
+
 ## 🚀 Como Executar
 1. Clone o repositório.
 2. Certifique-se de ter o JDK 17 instalado.
