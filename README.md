@@ -11,7 +11,7 @@
 - [Arquitetura do Projeto](#-arquitetura-do-projeto)
 - [Requisitos Técnicos Atendidos](#-requisitos-técnicos-atendidos)
 - [Diagramas (UML e DER)](#-diagramas)
-- [Endpoints da API](#)
+- [Endpoints da API](#api-endpoints-petjourney)
 - [Como Executar](#-como-executar)
 
 
@@ -63,10 +63,11 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 ![UML](https://private-us-east-1.manuscdn.com/sessionFile/LDDyuNbJSthi3bxz8adDs8/sandbox/2bz1lUDff6sy4hP0gFNRgj-images_1778818021905_na1fn_L2hvbWUvdWJ1bnR1L1BldEpvdXJuZXlfVU1MX0ZpbmFs.png?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvTEREeXVOYkpTdGhpM2J4ejhhZERzOC9zYW5kYm94LzJiejFsVURmZjZzeTRoUDBnRk5SZ2otaW1hZ2VzXzE3Nzg4MTgwMjE5MDVfbmExZm5fTDJodmJXVXZkV0oxYm5SMUwxQmxkRXB2ZFhKdVpYbGZWVTFNWDBacGJtRnMucG5nIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzk4NzYxNjAwfX19XX0_&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=QQvqen-xmbw-0ryRkvTt~8tThJS2fz46oSM3FS~aW7sxi9zWpUviS0oRXFWHazJzJ6DToME5DI6y6AO1LW1Dxe5AN7Q2a3~99VvzaU2wARhASKWYC71zfKpDNLGChTfKWXjzdLYyJd~ZsLmwGINXiHunIrf4V85c-516eX2dq87~s67uRgQ-s~5Z-8JIN8g9N1KzaMTfkeM9Amfxtt-6IZUUSTDWmh97pUn5jOvkh4zT7riQbOWuBOGZaygcjILZkIQ~mkSEOoB2qZNQGUpQIJDBVx~grUAvJyWoGb5JB36Q4CKItGFDIfc2Nrk7g0-nT9HYSd77Kxh8pLKRfUoaYw__)
 
 ### Diagrama Entidade-Relacionamento (DER)
-![DER](<img width="1024" height="453" alt="Image (1)" src="https://github.com/user-attachments/assets/977c5a07-4797-4447-89e8-112896191ad6" />
+![DER]( 
+
 )
 
-# 📌 API Endpoints - PetJourney
+## 📌 API Endpoints - PetJourney
 
 ## 🏥 Clinics
 
