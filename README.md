@@ -7,14 +7,13 @@
 
 ## 📋 Sumário
 - [Sobre o Projeto](#-sobre-o-projeto)
-- [Cronograma de Desenvolvimento](#-cronograma-de-desenvolvimento)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Arquitetura do Projeto](#-arquitetura-do-projeto)
 - [Requisitos Técnicos Atendidos](#-requisitos-técnicos-atendidos)
 - [Diagramas (UML e DER)](#-diagramas)
 - [Endpoints da API](#-endpoints-da-api)
 - [Como Executar](#-como-executar)
-- [Testes da API (Postman)](#-testes-da-api)
+
 
 ## 📌 Sobre o Projeto
 O **PetJourney** é uma solução completa para o gerenciamento de clínicas veterinárias e acompanhamento preventivo da saúde pet. Esta API foca no módulo clínico, permitindo que veterinários registrem prontuários, prescrevam medicamentos e gerenciem agendamentos, enquanto tutores acompanham o histórico de seus pets.
