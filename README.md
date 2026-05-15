@@ -41,8 +41,7 @@ O projeto segue a arquitetura de camadas padrão do Spring Boot:
 
 ```text
 src/main/java/br/com/fiap/petjourney/
-├── config/<img width="1024" height="453" alt="Image (1)" src="https://github.com/user-attachments/assets/cec905f8-c88b-486a-8047-b5a1be10150e" />
- 
+├── config/
 ├── controllers/
 ├── dtos/
 │   ├── request/
