@@ -11,7 +11,7 @@
 - [Arquitetura do Projeto](#-arquitetura-do-projeto)
 - [Requisitos Técnicos Atendidos](#-requisitos-técnicos-atendidos)
 - [Diagramas (UML e DER)](#-diagramas)
-- [Endpoints da API](#-endpoints-da-api)
+- [Endpoints da API](#-api-Endpoints-petjourney)
 - [Como Executar](#-como-executar)
 
 
